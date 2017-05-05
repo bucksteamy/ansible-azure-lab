@@ -65,7 +65,7 @@
       ssh_password_enabled: False
       ssh_public_keys: 
         - path: /home/theadmin/.ssh/authorized_keys
-          key_data: '{{ pubkey }}
+          key_data: '{{ pubkey }}'
       image:
         offer: CentOS
         publisher: OpenLogic
